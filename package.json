@@ -1,0 +1,23 @@
+{
+  "name": "maazdb-js",
+  "version": "1.0.0",
+  "description": "Official Node.js Driver for MaazDB",
+  "main": "src/client.js",
+  "scripts": {
+    "test": "node examples/basic.js"
+  },
+  "keywords": [
+    "database",
+    "driver",
+    "maazdb",
+    "sql",
+    "tls"
+  ],
+  "author": "Maaz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/42Wor/maazdb-js.git"
+  }
+}
+
