@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MaazDB Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light d-flex align-items-center justify-content-center" style="height: 100vh;">
+    <div class="card shadow p-4" style="width: 400px;">
+        <h3 class="text-center mb-4">MaazDB Login</h3>
+        <% if(error) { %> <div class="alert alert-danger"><%= error %></div> <% } %>
+        <form action="/connect" method="POST">
+            <div class="mb-3"><label>Host</label><input type="text" name="host" class="form-control" value="127.0.0.1"></div>
+            <div class="mb-3"><label>Port</label><input type="number" name="port" class="form-control" value="8888"></div>
+            <div class="mb-3"><label>User</label><input type="text" name="user" class="form-control" value="admin"></div>
+            <div class="mb-3"><label>Password</label><input type="password" name="password" class="form-control" required></div>
+            <button class="btn btn-primary w-100">Connect</button>
+        </form>
+    </div>
+</body>
+</html>
