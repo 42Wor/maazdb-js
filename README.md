@@ -67,15 +67,6 @@ main();
 
 ---
 
-## 📋 Protocol Specifications
-
-The driver communicates using the **MaazDB Binary Protocol v1**:
-
-1.  **Handshake:** `[Type: 0x10] [Len: 4B] [User\0Pass\0Sig]`
-2.  **Query:** `[Type: 0x20] [Len: 4B] [SQL String]`
-3.  **Response:** `[Type: 0x02/0x03] [Len: 4B] [Result String]`
-
-All integers are handled as **Big Endian** using Node.js `Buffer.writeUInt32BE()` and `Buffer.readUInt32BE()`.
 
 ## 🧪 Development
 
