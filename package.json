@@ -1,7 +1,7 @@
 {
   "name": "maazdb-js",
-  "version": "1.0.0",
-  "description": "Official Node.js Driver for MaazDB",
+  "version": "2.0.0",
+  "description": "Official Node.js Driver for MaazDB (Protocol v2.1)",
   "main": "src/client.js",
   "scripts": {
     "test": "node examples/basic.js"
@@ -20,4 +20,3 @@
     "url": "https://github.com/42Wor/maazdb-js.git"
   }
 }
-
