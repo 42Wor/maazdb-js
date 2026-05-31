@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/package",
   "name": "maazdb-js",
   "version": "2.0.0",
   "description": "Official Node.js Driver for MaazDB (Protocol v2.1)",
